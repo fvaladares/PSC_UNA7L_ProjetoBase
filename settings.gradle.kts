@@ -1,0 +1,1 @@
+rootProject.name = "PSC_UNA7L_ProjetoBase"
