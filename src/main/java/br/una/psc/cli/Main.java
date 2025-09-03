@@ -19,9 +19,9 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         // Criando um objeto que será responsável por executar o nosso programa
-        ExemploCalcularSomaInteiros exemploCalcularSomaInteiros = new ExemploCalcularSomaInteiros(input);
+        ExemploCalcularSomaInteiros exemploCalcularSomaInteiros = new ExemploCalcularSomaInteiros();
 
         //executando o programa exemploCalcularSomaInteiros
-        exemploCalcularSomaInteiros.executar();
+        exemploCalcularSomaInteiros.executar(input);
     }
 }

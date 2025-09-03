@@ -18,15 +18,10 @@ public class ExemploCalcularSomaInteiros {
         a palavra *final* impede que a variável marcada com este modificador seja alterada posteriormente
      */
 
-    private final Scanner input;
-
-    public ExemploCalcularSomaInteiros(Scanner input) {
-        this.input = input;
-    }
 
 
     // Método responsável pela execução do seu programa;
-    public void executar() {
+    public void executar(Scanner input) {
         int primeiraParcela;
         int segundaParcela;
         int resultado;
